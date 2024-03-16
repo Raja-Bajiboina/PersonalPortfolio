@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student personal - Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            background-image: url('images/background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2em;
+            background-color: hwb(69 91% 6% / 0.9); 
+            border-radius: 8px;
+            margin: 1em;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .about-me, .skills, .projects, .contact {
+            margin-bottom: 2em;
+        }
+
+        .project-item {
+            margin-bottom: 1em;
+        }
+
+        .project-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .project-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+        }
+
+        .project-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+    
+        <h1> Raja Bajiboina </h1>
+        <p> Personal Portfolio</p> 
+        <a href="#skills">SKILLS</a>
+        <a href="#about me">ABOUT ME</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact me">CONTACT ME</a>
+        <img src="images/profile pic.png.jpg" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px; position: absolute; top: 1em; right: 1em;">
+    </header>
+
+    <section class="about-me" id="home">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Raja Bajiboina, I am a passionate undergraduate student with a keen interest in Web Development.
+            This portfolio showcases my skills and projects, highlighting my journey in the world of web Development.
+            And I also know the some coding skills in the python and java
+        </p>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages:C,Java ,Python</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Database Management: My SQL</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>Project 1</h3>
+            <img src="https://repository-images.githubusercontent.com/587606503/2e0422ac-0946-4ff1-a4b4-373f691463ae" alt="Project 1 Image">
+            <p>Here is my first project netflix home web page</p>
+            <a href="" class="project-button">Details</a>
+        </div>
+        <div class="project-item">
+            <h3>Project 2</h3>
+            <img src="Screenshot 2024-03-12 233526.png" alt="Project 2 Image">
+            <p>Here is my second project name Weather Forecasting</p>
+            <a href="images/Building a Weather Forecasting Website A Comprehensive Guide.pdf" class="project-button">Details</a>
+        </div>
+        
+    </section>
+
+    <section class="contact" id="about">
+        <h2>Contact</h2>
+        <p>Email: rajabajiboina@gmail.com</p>
+        <p>LinkedIn: Raja Bajiboina</p>
+        <p>Phone number:6281006728</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 RajaBajiboina - Portfolio</p>
+    </footer>
+
+</body>
+</html>
